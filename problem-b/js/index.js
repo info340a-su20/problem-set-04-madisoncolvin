@@ -12,13 +12,13 @@
    addFour() function. */
    let twelve = addFour(8);
    console.log(twelve);
-
    
 /* Create and log a variable `twelveString` that is the result of passing "8" 
    (a string) to your addFour() function. Consider what this tells you about how
   the function should be explained (e.g., in a comment). */
-  const twelveString = addFour("8");
+  let twelveString = addFour("8");
   console.log(twelveString);
+
 // The function's output tells me that the function adds four based on the type
 // of variable we inputed. Ex: if a string it will add '4' to the end of the string, 
 // but if we add a number, Ex: 8, it will output 12.
